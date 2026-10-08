@@ -1,9 +1,8 @@
 ---
-title: termo
+title: fast-forward
 ---
 
-# termo
+# fast-forward
 
-(Duas a quatro linhas explicando o termo, com as suas palavras.
-Uma delas precisa trazer um exemplo concreto: um comando, ou uma
-situação em que o termo aparece.)
+ fast-forward é quando você vai juntar duas branches e uma delas está "atrás" da outra, sem nenhum commit novo no meio do caminho. Em vez de criar um commit de merge todo trabalhado na burocracia, o Git só dá um pulo para
+ frente e move o ponteiro direto pro último commit. É o jeito mais fácil de atualizar o código, deixando o histórico reto, limpo e sem curvas.
